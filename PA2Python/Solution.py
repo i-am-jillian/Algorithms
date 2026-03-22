@@ -21,13 +21,13 @@ class Solution:
 
         #traversing the graph by taking the node that im standing on and check its neighbors
         while queue:
-            current = queue.popleft([self.start_node])
-            for neighbors in self.graph[current]:
+            current = queue.popleft()
+            for neighbors in self.graph.get(current,[]):
                 #checking for nodes that are not visited yet (-1)
                 if distance[neighbors] ==  -1:
                     #set their distance in distance list
                     distance[neighbors] = distance[current] + 1
                     #append the node to the queueu
-                    queue.append([neighbors])
+                    queue.append(neighbors)
 
         return distance
