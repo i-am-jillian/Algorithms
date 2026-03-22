@@ -1,5 +1,5 @@
 import re
-from PreferenceLists import PreferenceLists
+from PA1.PreferenceLists import PreferenceLists
 
 class Utility:
 

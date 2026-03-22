@@ -1,4 +1,4 @@
-from Marriage import Marriage
+from PA1.Marriage import Marriage
 from itertools import permutations
 
 
