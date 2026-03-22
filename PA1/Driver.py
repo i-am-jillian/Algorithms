@@ -1,6 +1,6 @@
 import sys
-from PA1.Utility import Utility
-from PA1.Solution import Solution
+from Utility import Utility
+from Solution import Solution
 
 class Driver:
 
